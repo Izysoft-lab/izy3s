@@ -65,6 +65,7 @@ If everything works well the server will run on `http://localhost:5002`
                 "doc2",
                 "doc3",
                 "doc4"
+                ....
             ]
         }
       ```
@@ -127,7 +128,8 @@ If everything works well the server will run on `http://localhost:5002`
 
   * **Code:** 200 <br />
     **Content:** 
-      ```[
+      ```
+      [
                 {
                     "text": "document",
                     "norm": 3.695,
@@ -150,7 +152,8 @@ If everything works well the server will run on `http://localhost:5002`
                     "id": "id"
                 }
                 ...
-         ]```
+         ]
+      ```
  
 * **Error Response:**
 
@@ -323,7 +326,7 @@ If everything works well the server will run on `http://localhost:5002`
   * **Code:** 201 <br />
     **Content:**  
     ```  
-
+      {
          "text": "annotated text",
          "concepts_labels":[
           {
@@ -334,7 +337,7 @@ If everything works well the server will run on `http://localhost:5002`
           }
           ...
         ]
-
+      }
     ```
  
 * **Error Response:**
