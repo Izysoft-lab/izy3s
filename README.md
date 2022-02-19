@@ -9,27 +9,18 @@ Make sure you have Elasticsearch installed and configured on your computer and l
 
 `$ pip install -r requirements.txt`
 
-*Tip: you might want to create a virtualenv first*
+
 
 ## requirements
 
-This search engine works with an api for automatic document annotation 
+This search engine works with our api for automatic document annotation 
 Gate Rest API you can find [here](https://duckduckgo.com). 
 
 API for annotating documents is a Tomcat server that the search engine uses to find all the concepts in the documents for semantic indexing. So for the engine to work, you need to deploy this server on your machine and run it.
 
-`You have to clone and launch this annotation server before testing the search engine`
-
-open 3 terminals:
-
-`$ python3 server.py`
-
-`$ python3 viewer.py`
-
-`$ python3 client.py`
+*RG* : `You have to clone and launch this annotation server before testing the search engine`
 
 
-=
 
 ## Debug Installation
 
@@ -37,7 +28,16 @@ open 3 terminals:
 
 **Launch Elasticsearch and make sure it is listening on port 9200**
 
+## Lunch application
+Open the project directory and run the command  
+
+`python lunch.py` or `python3 lunch.py `
+
+If everything works well the server will run on `http://localhost:5002`
+
 # Documentation of API
+
+
 
 **Indexation**
 ----
@@ -55,7 +55,8 @@ open 3 terminals:
 
    **Required:**
  
-   ```{
+   ```
+      {
             "ontology_path": "Location_of_ontology",
             "url_api": "url_ontology_api",
             "index_name": "index_name",
@@ -65,7 +66,8 @@ open 3 terminals:
                 "doc3",
                 "doc4"
             ]
-        }```
+        }
+      ```
 
 * **Data Params**
 
@@ -80,6 +82,18 @@ open 3 terminals:
 
   * **Code:** 500 INTERNAL ERROR <br />
     **Content:** `{ bat request }`
+
+
+#### Description of the body ####
+ * **ontology_path** : The path to your ontology on your machine
+
+ * **url_api** : api url for semantic annotation
+
+ * **index_name** : The name of the Elasticsearch index where the documents will be indexed
+
+
+
+
 
 
 
@@ -99,9 +113,11 @@ open 3 terminals:
 
    **Required:**
  
-   ```{
+   ```
+    {
            "query":"Search query"
-        }```
+    }
+    ```
 
 * **Data Params**
 
@@ -158,7 +174,7 @@ open 3 terminals:
 *  **BODY**
 
    **Required:**
-   *** type: multipart formdata ***
+   *type: multipart formdata*
  
    ``` 
         {
@@ -213,19 +229,18 @@ open 3 terminals:
 
   * **Code:** 200 <br />
     **Content:** 
-     ```[   
+     ```
+      [   
                 {
                     "createAt": "2022-02-17T16:04:56.947Z",
                     "fileName": "activity.owl",
                     "id": "59e370dabbb8da8ff49ca1ff28f5fb279161c72d"
                 },
-                {
-                    "createAt": "2022-02-18T10:51:01.932Z",
-                    "fileName": "activity.owl",
-                    "id": "03bc73d45464b7d75bcdf17e4abf18a3ccb326f9"
-                }
+                
                  ....
-      ]```
+        ]
+        
+    ```
 
  
 * **Error Response:**
@@ -271,3 +286,71 @@ open 3 terminals:
 
   * **Code:** 500 INTERNAL ERROR <br />
     **Content:** `{ bat request }`
+
+
+
+**Annotation**
+----
+ When you have added an ontology, you can make an annotation by indicating the ontology id and the document to annotate 
+
+* **URL**
+
+  /annotation_id
+
+* **Method:**
+
+  `GET`
+  
+*  **BODY**
+
+  None
+
+  * **Data Params**
+
+   **Required:** 
+   ```
+        {
+          "id": "id of ontology",
+          "document":"text doc"
+        }
+        
+  ```
+
+
+
+* **Success Response:**
+
+  * **Code:** 201 <br />
+    **Content:**  
+    ```  
+
+         "text": "annotated text",
+         "concepts_labels":[
+          {
+            "startNode": 0,
+            "endNode": 14,
+            "label": "HockeySurGlace",
+            "concept": "HockeySurGlace"
+          }
+          ...
+        ]
+
+    ```
+ 
+* **Error Response:**
+
+  * **Code:** 500 INTERNAL ERROR <br />
+    **Content:** `{ bat request }`
+
+
+#### Description of the params ####
+ * **id** : id you ontology file to use for annotation
+
+ * **document** : Text of the document to be annotated 
+
+**Quand vous faites unes annotation, les labels dans le texte annoté ayant dans les concepts dans l'ontologie sont dans la balise  \<strong>**
+
+
+ 
+
+For more information about this api, you can read our [article](https://duckduckgo.com) about semantic document annotation.
