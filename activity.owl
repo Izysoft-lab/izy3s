@@ -1,0 +1,794 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/categoriesEvt.owl#"
+     xml:base="http://www.owl-ontologies.com/categoriesEvt.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Spectacle"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#ArtsMartiaux -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#ArtsMartiaux">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+        <rdfs:label xml:lang="fr">arts martiaux</rdfs:label>
+        <rdfs:label xml:lang="fr">aïkido</rdfs:label>
+        <rdfs:label xml:lang="fr">capoeira</rdfs:label>
+        <rdfs:label xml:lang="fr">ju-jitsu</rdfs:label>
+        <rdfs:label xml:lang="fr">judo</rdfs:label>
+        <rdfs:label xml:lang="fr">karaté</rdfs:label>
+        <rdfs:label xml:lang="fr">karate</rdfs:label>
+        <rdfs:label xml:lang="fr">kung fu</rdfs:label>
+        <rdfs:label xml:lang="fr">sumo</rdfs:label>
+        <rdfs:label xml:lang="fr">taekwondo</rdfs:label>
+        <rdfs:label xml:lang="fr">tai-chi-chuan</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Athletisme -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Athletisme">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">athletisme</rdfs:label>
+        <rdfs:label xml:lang="fr">athletisme</rdfs:label>
+        <rdfs:label xml:lang="fr">cross</rdfs:label>
+        <rdfs:label xml:lang="fr">cross-country</rdfs:label>
+        <rdfs:label xml:lang="fr">cross country</rdfs:label>
+        <rdfs:label xml:lang="fr">marathon</rdfs:label>
+        <rdfs:label xml:lang="fr">semi-marathon</rdfs:label>
+        <rdfs:label xml:lang="fr">semi marathon</rdfs:label>
+        <rdfs:label xml:lang="fr">triathlon</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#AutreMusique -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#AutreMusique">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">Jazz - Reggae- World - Blues - Gospel</rdfs:label>
+        <rdfs:label xml:lang="fr">balade musicale</rdfs:label>
+        <rdfs:label xml:lang="fr">blues</rdfs:label>
+        <rdfs:label xml:lang="fr">funk</rdfs:label>
+        <rdfs:label xml:lang="fr">gospel</rdfs:label>
+        <rdfs:label xml:lang="fr">jazz</rdfs:label>
+        <rdfs:label xml:lang="fr">musique country</rdfs:label>
+        <rdfs:label xml:lang="fr">musique du monde</rdfs:label>
+        <rdfs:label xml:lang="fr">musique folklorique</rdfs:label>
+        <rdfs:label xml:lang="fr">reggae</rdfs:label>
+        <rdfs:label xml:lang="fr">ska</rdfs:label>
+        <rdfs:label xml:lang="fr">world</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Badminton -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Badminton">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette"/>
+        <rdfs:label xml:lang="fr">badminton</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Basketball -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Basketball">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">basket</rdfs:label>
+        <rdfs:label xml:lang="fr">basket-ball</rdfs:label>
+        <rdfs:label xml:lang="fr">basketball</rdfs:label>
+        <rdfs:label xml:lang="fr">basket ball</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Boxe -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Boxe">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportCombat"/>
+        <rdfs:label xml:lang="fr">boxe</rdfs:label>
+        <rdfs:label xml:lang="fr">boxe americaine</rdfs:label>
+        <rdfs:label xml:lang="fr">boxe anglaise</rdfs:label>
+        <rdfs:label xml:lang="fr">boxe française</rdfs:label>
+        <rdfs:label xml:lang="fr">kick-boxing</rdfs:label>
+        <rdfs:label xml:lang="fr">kick boxing</rdfs:label>
+        <rdfs:label xml:lang="fr">savate</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Cabaret -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Cabaret">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre"/>
+        <rdfs:label xml:lang="fr">cabaret</rdfs:label>
+        <rdfs:label xml:lang="fr">revue</rdfs:label>
+        <rdfs:label xml:lang="fr">soirée dansante</rdfs:label>
+        <rdfs:label xml:lang="fr">soiree dansante</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Catch -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Catch">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportCombat"/>
+        <rdfs:label xml:lang="fr">catch</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Cirque -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Cirque">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">cirque</rdfs:label>
+        <rdfs:label xml:lang="fr">cirque contemporain</rdfs:label>
+        <rdfs:label xml:lang="fr">cirque traditionnel</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Classique -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Classique">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">chant grégorien</rdfs:label>
+        <rdfs:label xml:lang="fr">chant gregorien</rdfs:label>
+        <rdfs:label xml:lang="fr">chant sacré</rdfs:label>
+        <rdfs:label xml:lang="fr">chant sacre</rdfs:label>
+        <rdfs:label xml:lang="fr">classique</rdfs:label>
+        <rdfs:label xml:lang="fr">musique baroque</rdfs:label>
+        <rdfs:label xml:lang="fr">musique classique</rdfs:label>
+        <rdfs:label xml:lang="fr">musique contemporaine</rdfs:label>
+        <rdfs:label xml:lang="fr">musique de chambre</rdfs:label>
+        <rdfs:label xml:lang="fr">musique médiévale</rdfs:label>
+        <rdfs:label xml:lang="fr">musique medievale</rdfs:label>
+        <rdfs:label xml:lang="fr">musique sacrée</rdfs:label>
+        <rdfs:label xml:lang="fr">musique sacree</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#ComedieMusicale -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#ComedieMusicale">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Spectacle"/>
+        <rdfs:label xml:lang="fr">comedie musicale</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Concert -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Concert">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Musique"/>
+        <rdfs:label xml:lang="fr">concert</rdfs:label>
+        <rdfs:label xml:lang="fr">concert jeune public</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Cyclisme -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Cyclisme">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">cyclisme</rdfs:label>
+        <rdfs:label xml:lang="fr">bmx</rdfs:label>
+        <rdfs:label xml:lang="fr">critérium</rdfs:label>
+        <rdfs:label xml:lang="fr">criterium</rdfs:label>
+        <rdfs:label xml:lang="fr">cross-country</rdfs:label>
+        <rdfs:label xml:lang="fr">cyclisme</rdfs:label>
+        <rdfs:label xml:lang="fr">cyclo-cross</rdfs:label>
+        <rdfs:label xml:lang="fr">vtt</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Danse -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Danse">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">danse</rdfs:label>
+        <rdfs:label xml:lang="fr">ballet</rdfs:label>
+        <rdfs:label xml:lang="fr">bollywood</rdfs:label>
+        <rdfs:label xml:lang="fr">bolero</rdfs:label>
+        <rdfs:label xml:lang="fr">bolero</rdfs:label>
+        <rdfs:label xml:lang="fr">claquette</rdfs:label>
+        <rdfs:label xml:lang="fr">danse</rdfs:label>
+        <rdfs:label xml:lang="fr">danse classique</rdfs:label>
+        <rdfs:label xml:lang="fr">danse contemporaine</rdfs:label>
+        <rdfs:label xml:lang="fr">danse country</rdfs:label>
+        <rdfs:label xml:lang="fr">danse de salon</rdfs:label>
+        <rdfs:label xml:lang="fr">danse du monde</rdfs:label>
+        <rdfs:label xml:lang="fr">danse hip-hop</rdfs:label>
+        <rdfs:label xml:lang="fr">danse jazz</rdfs:label>
+        <rdfs:label xml:lang="fr">danse rock</rdfs:label>
+        <rdfs:label xml:lang="fr">danse traditionnelle</rdfs:label>
+        <rdfs:label xml:lang="fr">electro-danse</rdfs:label>
+        <rdfs:label xml:lang="fr">flamenco</rdfs:label>
+        <rdfs:label xml:lang="fr">mambo</rdfs:label>
+        <rdfs:label xml:lang="fr">rock acrobatique</rdfs:label>
+        <rdfs:label xml:lang="fr">street danse</rdfs:label>
+        <rdfs:label xml:lang="fr">tango</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Enfant -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Enfant">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre"/>
+        <rdfs:label xml:lang="fr">spectacle enfant</rdfs:label>
+        <rdfs:label xml:lang="fr">marionnette</rdfs:label>
+        <rdfs:label xml:lang="fr">mime</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle enfant</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle jeune public</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle pour enfant</rdfs:label>
+        <rdfs:label xml:lang="fr">voyage musical</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Equestre -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Equestre">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">spectacle equestre</rdfs:label>
+        <rdfs:label xml:lang="fr">dressage</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle equestre</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre equestre</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre equestre</rdfs:label>
+        <rdfs:label xml:lang="fr">equestre</rdfs:label>
+        <rdfs:label xml:lang="fr">equestre</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Equitation -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Equitation">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">equitation</rdfs:label>
+        <rdfs:label xml:lang="fr">attelage</rdfs:label>
+        <rdfs:label xml:lang="fr">concours complet</rdfs:label>
+        <rdfs:label xml:lang="fr">course hippique</rdfs:label>
+        <rdfs:label xml:lang="fr">dressage</rdfs:label>
+        <rdfs:label xml:lang="fr">saut d&apos;obstacle</rdfs:label>
+        <rdfs:label xml:lang="fr">voltige</rdfs:label>
+        <rdfs:label xml:lang="fr">equitation</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Escrime -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Escrime">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">escrime</rdfs:label>
+        <rdfs:label xml:lang="fr">fleuret</rdfs:label>
+        <rdfs:label xml:lang="fr">sabre</rdfs:label>
+        <rdfs:label xml:lang="fr">épée</rdfs:label>
+        <rdfs:label xml:lang="fr">epee</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Exposition -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Exposition">
+        <rdfs:label xml:lang="fr">exposition - Conférence - Foire - Salon</rdfs:label>
+        <rdfs:label xml:lang="fr">conference</rdfs:label>
+        <rdfs:label xml:lang="fr">conference</rdfs:label>
+        <rdfs:label xml:lang="fr">dédicace</rdfs:label>
+        <rdfs:label xml:lang="fr">dedicace</rdfs:label>
+        <rdfs:label xml:lang="fr">expo</rdfs:label>
+        <rdfs:label xml:lang="fr">expos</rdfs:label>
+        <rdfs:label xml:lang="fr">foire</rdfs:label>
+        <rdfs:label xml:lang="fr">musee</rdfs:label>
+        <rdfs:label xml:lang="fr">musee</rdfs:label>
+        <rdfs:label xml:lang="fr">salon</rdfs:label>
+        <rdfs:label xml:lang="fr">vernissage</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#FestivalDanse -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#FestivalDanse">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Danse"/>
+        <rdfs:label xml:lang="fr">festival danse</rdfs:label>
+        <rdfs:label xml:lang="fr">festival</rdfs:label>
+        <rdfs:label xml:lang="fr">festivals</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#FestivalMusique -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#FestivalMusique">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">festival de musique</rdfs:label>
+        <rdfs:label xml:lang="fr">Francofolies</rdfs:label>
+        <rdfs:label xml:lang="fr">Garorock</rdfs:label>
+        <rdfs:label xml:lang="fr">Les Vieilles Charrues</rdfs:label>
+        <rdfs:label xml:lang="fr">festival de jazz</rdfs:label>
+        <rdfs:label xml:lang="fr">festival musical</rdfs:label>
+        <rdfs:label xml:lang="fr">festival musique</rdfs:label>
+        <rdfs:label xml:lang="fr">hellfest</rdfs:label>
+        <rdfs:label xml:lang="fr">solidays</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#FestivalTheatre -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#FestivalTheatre">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Theatre"/>
+        <rdfs:label xml:lang="fr">festival théatre</rdfs:label>
+        <rdfs:label xml:lang="fr">festival</rdfs:label>
+        <rdfs:label xml:lang="fr">festival theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">festival théâtre</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Football -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Football">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">football</rdfs:label>
+        <rdfs:label xml:lang="fr">foot</rdfs:label>
+        <rdfs:label xml:lang="fr">soccer</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Glace -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Glace">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">spectacle sur glace</rdfs:label>
+        <rdfs:label xml:lang="fr">danse sur glace</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Golf -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Golf">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">golf</rdfs:label>
+        <rdfs:label xml:lang="fr">open</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Handball -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Handball">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">handball</rdfs:label>
+        <rdfs:label xml:lang="fr">hand-ball</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#HockeySurGlace -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#HockeySurGlace">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">hockey</rdfs:label>
+        <rdfs:label xml:lang="fr">hockey sur glace</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Humour -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Humour">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre"/>
+        <rdfs:label xml:lang="fr">Comedie - Theatre - Humour</rdfs:label>
+        <rdfs:label xml:lang="fr">Cafe-Théâtre</rdfs:label>
+        <rdfs:label xml:lang="fr">Cafe Theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">Cafe-Theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">Cafe-theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">café théatre</rdfs:label>
+        <rdfs:label xml:lang="fr">café théâtre</rdfs:label>
+        <rdfs:label xml:lang="fr">comédie</rdfs:label>
+        <rdfs:label xml:lang="fr">comedie</rdfs:label>
+        <rdfs:label xml:lang="fr">humoriste</rdfs:label>
+        <rdfs:label xml:lang="fr">humour</rdfs:label>
+        <rdfs:label xml:lang="fr">one man show</rdfs:label>
+        <rdfs:label xml:lang="fr">one man/woman show</rdfs:label>
+        <rdfs:label xml:lang="fr">one woman show</rdfs:label>
+        <rdfs:label xml:lang="fr">one-man-show</rdfs:label>
+        <rdfs:label xml:lang="fr">one-woman-show</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle humour</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de boulevard</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de boulevard</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de rue</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de rue</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de boulevard</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre de boulevard</rdfs:label>
+        <rdfs:label xml:lang="fr">théâtre de rue</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Judo -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Judo">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtsMartiaux"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Karate -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Karate">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtsMartiaux"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#KungFu -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#KungFu">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtsMartiaux"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Lutte -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Lutte">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportCombat"/>
+        <rdfs:label xml:lang="fr">lutte</rdfs:label>
+        <rdfs:label xml:lang="fr">lutte gréco-romaine</rdfs:label>
+        <rdfs:label xml:lang="fr">lutte greco-romaine</rdfs:label>
+        <rdfs:label xml:lang="fr">lutte greco romaine</rdfs:label>
+        <rdfs:label xml:lang="fr">lutte libre</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Magie -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Magie">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">magie - illusion</rdfs:label>
+        <rdfs:label xml:lang="fr">illusionniste</rdfs:label>
+        <rdfs:label xml:lang="fr">magicien</rdfs:label>
+        <rdfs:label xml:lang="fr">magie</rdfs:label>
+        <rdfs:label xml:lang="fr">prestidigitateur</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Musique -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Musique">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Spectacle"/>
+        <rdfs:label xml:lang="fr">spectacle musical</rdfs:label>
+        <rdfs:label xml:lang="fr">composition musicale</rdfs:label>
+        <rdfs:label xml:lang="fr">musique</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Natation -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Natation">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">natation</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Opera -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Opera">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Musique"/>
+        <rdfs:label xml:lang="fr">Opera - Chorale - Recital</rdfs:label>
+        <rdfs:label xml:lang="fr">chant choral</rdfs:label>
+        <rdfs:label xml:lang="fr">lyrique</rdfs:label>
+        <rdfs:label xml:lang="fr">opera</rdfs:label>
+        <rdfs:label xml:lang="fr">opera</rdfs:label>
+        <rdfs:label xml:lang="fr">operette</rdfs:label>
+        <rdfs:label xml:lang="fr">operette</rdfs:label>
+        <rdfs:label xml:lang="fr">récital</rdfs:label>
+        <rdfs:label xml:lang="fr">recital</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Patinage -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Patinage">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#AutreSport"/>
+        <rdfs:label xml:lang="fr">patinage</rdfs:label>
+        <rdfs:label xml:lang="fr">patinage artistique</rdfs:label>
+        <rdfs:label xml:lang="fr">roller derby</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Pelote -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Pelote">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette"/>
+        <rdfs:label xml:lang="fr">pelote</rdfs:label>
+        <rdfs:label xml:lang="fr">chistera</rdfs:label>
+        <rdfs:label xml:lang="fr">pala</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#PingPong -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#PingPong">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette"/>
+        <rdfs:label xml:lang="fr">ping pong</rdfs:label>
+        <rdfs:label xml:lang="fr">ping-pong</rdfs:label>
+        <rdfs:label xml:lang="fr">tennis de table</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#PopRockElectroFolk -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#PopRockElectroFolk">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">Concert Pop - Rock - Electro - Folk</rdfs:label>
+        <rdfs:label xml:lang="fr">electro</rdfs:label>
+        <rdfs:label xml:lang="fr">electrobeach</rdfs:label>
+        <rdfs:label xml:lang="fr">folk</rdfs:label>
+        <rdfs:label xml:lang="fr">hard rock</rdfs:label>
+        <rdfs:label xml:lang="fr">hard-rock</rdfs:label>
+        <rdfs:label xml:lang="fr">musique électronique</rdfs:label>
+        <rdfs:label xml:lang="fr">musique electronique</rdfs:label>
+        <rdfs:label xml:lang="fr">metal</rdfs:label>
+        <rdfs:label xml:lang="fr">metal</rdfs:label>
+        <rdfs:label xml:lang="fr">pop</rdfs:label>
+        <rdfs:label xml:lang="fr">pop rock</rdfs:label>
+        <rdfs:label xml:lang="fr">rock</rdfs:label>
+        <rdfs:label xml:lang="fr">rock fusion</rdfs:label>
+        <rdfs:label xml:lang="fr">rock métal</rdfs:label>
+        <rdfs:label xml:lang="fr">soul</rdfs:label>
+        <rdfs:label xml:lang="fr">électro</rdfs:label>
+        <rdfs:label xml:lang="fr">electro</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Pyrotechnie -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Pyrotechnie">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#ArtSpectacle"/>
+        <rdfs:label xml:lang="fr">spectacle Pyrotechnie</rdfs:label>
+        <rdfs:label xml:lang="fr">feu d&apos;artifice</rdfs:label>
+        <rdfs:label xml:lang="fr">pyrotechnie</rdfs:label>
+        <rdfs:label xml:lang="fr">son et lumière</rdfs:label>
+        <rdfs:label xml:lang="fr">son et lumiere</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#RapHipHopSlam -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#RapHipHopSlam">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">spectacle Rap - Hip Hop - Slam</rdfs:label>
+        <rdfs:label xml:lang="fr">R&amp;B</rdfs:label>
+        <rdfs:label xml:lang="fr">R&apos;n&apos;B</rdfs:label>
+        <rdfs:label xml:lang="fr">hip-hop</rdfs:label>
+        <rdfs:label xml:lang="fr">rap</rdfs:label>
+        <rdfs:label xml:lang="fr">slam</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Rugby -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Rugby">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">rugby</rdfs:label>
+        <rdfs:label xml:lang="fr">rugby à 7</rdfs:label>
+        <rdfs:label xml:lang="fr">rugby à VII</rdfs:label>
+        <rdfs:label xml:lang="fr">rugby à sept</rdfs:label>
+        <rdfs:label xml:lang="fr">top 14</rdfs:label>
+        <rdfs:label xml:lang="fr">tournoi des 6 nations</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Spectacle -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Spectacle">
+        <rdfs:label xml:lang="fr">spectacles</rdfs:label>
+        <rdfs:label xml:lang="fr">show</rdfs:label>
+        <rdfs:label xml:lang="fr">shows</rdfs:label>
+        <rdfs:label xml:lang="fr">spectacle</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Sport -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Sport">
+        <rdfs:label xml:lang="fr">sports</rdfs:label>
+        <rdfs:label xml:lang="fr">sport</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#SportCombat -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#SportCombat">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#SportMecanique -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#SportMecanique">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+        <rdfs:label xml:lang="fr">automobile</rdfs:label>
+        <rdfs:label xml:lang="fr">dragster</rdfs:label>
+        <rdfs:label xml:lang="fr">enduro</rdfs:label>
+        <rdfs:label xml:lang="fr">formule 1</rdfs:label>
+        <rdfs:label xml:lang="fr">formule 3000</rdfs:label>
+        <rdfs:label xml:lang="fr">grand tourisme</rdfs:label>
+        <rdfs:label xml:lang="fr">karting</rdfs:label>
+        <rdfs:label xml:lang="fr">moto</rdfs:label>
+        <rdfs:label xml:lang="fr">moto-cross</rdfs:label>
+        <rdfs:label xml:lang="fr">quad</rdfs:label>
+        <rdfs:label xml:lang="fr">rallye</rdfs:label>
+        <rdfs:label xml:lang="fr">sport mécanique</rdfs:label>
+        <rdfs:label xml:lang="fr">sport mecanique</rdfs:label>
+        <rdfs:label xml:lang="fr">trial</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Sport"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Squash -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Squash">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette"/>
+        <rdfs:label xml:lang="fr">squash</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Tennis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Tennis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportRaquette"/>
+        <rdfs:label xml:lang="fr">tennis</rdfs:label>
+        <rdfs:label xml:lang="fr">Roland Garos</rdfs:label>
+        <rdfs:label xml:lang="fr">Wimbledon</rdfs:label>
+        <rdfs:label xml:lang="fr">master</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Theatre -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Theatre">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#CabaretTheatre"/>
+        <rdfs:label xml:lang="fr">Theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">comedie française</rdfs:label>
+        <rdfs:label xml:lang="fr">comedie française</rdfs:label>
+        <rdfs:label xml:lang="fr">conte</rdfs:label>
+        <rdfs:label xml:lang="fr">lecture</rdfs:label>
+        <rdfs:label xml:lang="fr">poésie</rdfs:label>
+        <rdfs:label xml:lang="fr">poesie</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre classique</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre classique</rdfs:label>
+        <rdfs:label xml:lang="fr">théatre contemporain</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre contemporain</rdfs:label>
+        <rdfs:label xml:lang="fr">théatre dramatique</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre dramatique</rdfs:label>
+        <rdfs:label xml:lang="fr">théatre musical</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre musical</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre classique</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre contemporain</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre dramatique</rdfs:label>
+        <rdfs:label xml:lang="fr">theatre musical</rdfs:label>
+        <rdfs:label xml:lang="fr">vaudeville</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Variete -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Variete">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#Concert"/>
+        <rdfs:label xml:lang="fr">chansons et variétes</rdfs:label>
+        <rdfs:label xml:lang="fr">chanson et variété française</rdfs:label>
+        <rdfs:label xml:lang="fr">chanson et variete francaise</rdfs:label>
+        <rdfs:label xml:lang="fr">chanson française</rdfs:label>
+        <rdfs:label xml:lang="fr">variete</rdfs:label>
+        <rdfs:label xml:lang="fr">variete et chanson française</rdfs:label>
+        <rdfs:label xml:lang="fr">variete et chanson francaise</rdfs:label>
+        <rdfs:label xml:lang="fr">variéte française</rdfs:label>
+        <rdfs:label xml:lang="fr">variete francaise</rdfs:label>
+        <rdfs:label xml:lang="fr">variété internationale</rdfs:label>
+        <rdfs:label xml:lang="fr">variete internationale</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.owl-ontologies.com/categoriesEvt.owl#Volleyball -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/categoriesEvt.owl#Volleyball">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/categoriesEvt.owl#SportEquipe"/>
+        <rdfs:label xml:lang="fr">volley</rdfs:label>
+        <rdfs:label xml:lang="fr">volley ball</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
