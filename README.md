@@ -31,7 +31,7 @@ API for annotating documents is a Tomcat server that the search engine uses to f
 ## Lunch application
 Open the project directory and run the command  
 
-`python lunch.py` or `python3 lunch.py `
+`python launch.py` or `python3 launch.py `
 
 If everything works well the server will run on `http://localhost:5002`
 
