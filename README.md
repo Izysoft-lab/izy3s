@@ -14,7 +14,7 @@ Make sure you have Elasticsearch installed and configured on your computer and l
 ## requirements
 
 This search engine works with our api for automatic document annotation 
-Gate Rest API you can find [here](https://duckduckgo.com). 
+Gate Rest API you can find [here](https://github.com/Izysoft-lab/annotator-api). 
 
 API for annotating documents is a Tomcat server that the search engine uses to find all the concepts in the documents for semantic indexing. So for the engine to work, you need to deploy this server on your machine and run it.
 
