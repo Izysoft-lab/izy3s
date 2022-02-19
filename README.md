@@ -239,7 +239,7 @@ If everything works well the server will run on `http://localhost:5002`
                 
                  ....
         ]
-        
+
     ```
 
  
@@ -348,7 +348,7 @@ If everything works well the server will run on `http://localhost:5002`
 
  * **document** : Text of the document to be annotated 
 
-**Quand vous faites unes annotation, les labels dans le texte annoté ayant dans les concepts dans l'ontologie sont dans la balise  \<strong>**
+**When you make an annotation, the labels in the annotated text having the concepts in the ontology are in the  \<strong>**
 
 
  
